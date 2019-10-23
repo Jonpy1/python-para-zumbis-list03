@@ -1,0 +1,9 @@
+#Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+
+contador =input('Digite uma nota: ')
+while (contador > '10' ):
+    print('valor invalido ' )
+    contador=input('Digite a nota novamente: ')
+if contador  < '10':
+    print('valor valido ')
+
